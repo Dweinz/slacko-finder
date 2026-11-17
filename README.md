@@ -5,10 +5,9 @@ Larmar när någon loggar in/ut, kommer till din zon eller syns nära dig.
 
 ## Installera
 
-1. Gå till [senaste releasen](../../releases/latest).
-2. Ladda ner **Installera Slacko Finder.cmd** och dubbelklicka.
+1. Ladda ner **[Installera Slacko Finder](https://github.com/Dweinz/slacko-finder/releases/latest/download/Installera.Slacko.Finder.cmd)** och dubbelklicka.
    (Windows varnar: *Mer information* → *Kör ändå*.)
-3. Starta om WoW, klicka på skelettet vid minimappen eller skriv `/sf`.
+2. Starta om WoW, klicka på skelettet vid minimappen eller skriv `/sf`.
 
 Vill du hellre göra det själv: ladda ner `SlackoFinder.zip` och packa upp i
 `World of Warcraft\_forever_\Interface\AddOns\`.
