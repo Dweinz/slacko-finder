@@ -1,0 +1,7 @@
+## Interface: 16001, 120100
+## Title: |TInterface\AddOns\SlackoFinder\icon:16|t Slacko Finder
+## Notes: Bevakningslista med /who och communities: vem är online, var, och senast sedd.
+## IconTexture: Interface\AddOns\SlackoFinder\icon
+## SavedVariables: SlackoFinderDB, SlackoFinderSettings
+
+SlackoFinder.lua

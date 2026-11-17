@@ -1,0 +1,21 @@
+name: release
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bygg zip och installerare
+        shell: pwsh
+        run: |
+          Compress-Archive -Path SlackoFinder -DestinationPath SlackoFinder.zip
+          ./build-installer.ps1
+      - name: Skapa release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" SlackoFinder.zip "Installera Slacko Finder.cmd" --generate-notes
